@@ -1,2 +1,5 @@
 u_name = input("Enter your name - ")
+u_city = input("which city are you from - ")
+u_pet_name = input("Enter pet name - ")
 print(f"Hello, {u_name}. Nice to meet you.")
+print(f"You user name is - {u_city[:2] + u_pet_name[-2:]}.")
